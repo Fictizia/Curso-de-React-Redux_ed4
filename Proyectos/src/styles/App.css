@@ -1,0 +1,35 @@
+.tdl-main-section {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--backgroundBlue);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tdl-add_list_button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 7%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.tdl-add_list_button:active {
+  border: 1px solid var(--backgroundBlue);
+}
+
+.tdl-main_title {
+  padding: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--headerColor);
+}
+
+.tdl-main_title-link {
+  text-decoration: none;
+}
