@@ -1,7 +1,7 @@
-
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
 # [Curso de React + Redux](https://fictizia.com/formacion/curso-react-js-redux)
+
 ### Programación, React, Redux, SPA, Componentes, MVC, JSX, React-Router, CSS_in_JS, React-Native, GatsbyJS
 
 React (también llamado ReactJS o React.js) es una librería de JavaScript que facilita enormemente el desarrollo eficiente de interfaces de usuario fácilmente mantenibles. Los desarrolladores pueden gestionar de una forma muy cómoda y sencilla los diversos cambios visuales en el estado de las aplicaciones cuando además combinamos su uso con Redux, un contenedor predecible del estado de aplicaciones JavaScript.
@@ -12,14 +12,14 @@ Este curso tiene como objetivo que aprendas todos los detalles de esta librería
 
 # Indice
 
-1. [Introduccion](./introduccion.md)
+1. [Introducción](./introduccion.md)
 
-2. [Instalando nuestro entorno de desarrollo](./environment.md)
+2. [Nuestro entorno de desarrollo](./environment.md)
 3. Conceptos básicos de React:
-    1. [Introducción a JSX](./modulo1/jsx.md)
-    2. [Renderizando componentes](./modulo1/render.md)
-    3. [Componentes y propiedades](./modulo1/props.md)
-    4. [El estado](./modulo1/state.md)
-    5. [Ciclo de vida](./modulo1/lifecycle.md)
-    6. [Gestionando eventos en React](./modulo1/events.md)
-    7. [Renderizado condicional](./modulo1/conditionalRender.md)
+   1. [Introducción a JSX](./modulo1/jsx.md)
+   2. [Renderizando componentes](./modulo1/render.md)
+   3. [Componentes y propiedades](./modulo1/props.md)
+   4. [El estado](./modulo1/state.md)
+   5. [Ciclo de vida](./modulo1/lifecycle.md)
+   6. [Gestionando eventos en React](./modulo1/events.md)
+   7. [Renderizado condicional](./modulo1/conditionalRender.md)

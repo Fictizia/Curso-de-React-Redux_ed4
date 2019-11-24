@@ -2,12 +2,12 @@
 
 Una vez que hemos visto un poco cómo funciona JSX es hora de mancharnos las manos y renderizar nuestros propios componentes. Para ello nos vamos a ayudar de la librería `create-react-app` que deberíamos tener instalada.
 
-`create-react-app` nos ayuda a iniciar un proyecto en React dandonos un pequeño boilerplate y configurandonos nuestro proyecto para que, en principio, no tengamos que preocuparnos de configuraciones.
+`create-react-app` nos ayuda a iniciar un proyecto en React dándonos un pequeño boilerplate y configurandonos nuestro proyecto para que, en principio, no tengamos que preocuparnos de configuraciones.
 
 Para iniciar un proyecto con `create-react-app` es tan fácil como seguir los siguientes pasos:
 
 ```
-$ create-react-app render-components
+$ npx create-react-app render-components
 $ cd render-components
 $ yarn start
 ```
@@ -15,7 +15,6 @@ $ yarn start
 Esto nos creará una estructura como esta:
 
 ![estructura](./../images/boilerplate.png)
-
 
 Nos centraremos en el fichero `App.js`:
 
@@ -38,6 +37,6 @@ Ejercicios:
 3. Crear un componente `ShowDate.js` que llame a una función que devuelva la fecha actual en una etiqutea `span`.
 4. Crear un componente `ShowMessage.js` que dependiendo de si la variable `showMessage` es true o false muestre el mensaje `Ahora puedes leer esto` en una etiqueta `p`.
 5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`
-
+   [IR AL EJERCICIO](./../Ejercicios/2.Renderizando_Elementos.md)
 
 [<- Volver al índice](./../README.md)
