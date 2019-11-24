@@ -8,18 +8,13 @@ Con JSX pasas una función como el manejador del evento, en vez de un string.
 Por ejemplo, el HTML:
 
 ```js
-<button onclick="activateLasers()">
-  Activate Lasers
-</button>
+<button onclick="activateLasers()">Activate Lasers</button>
 ```
-
 
 En React es algo diferente:
 
 ```js
-<button onClick={activateLasers}>
-  Activate Lasers
-</button>
+<button onClick={activateLasers}>Activate Lasers</button>
 ```
 
 Otra diferencia es que en React no puedes retornar false para prevenir el comportamiento por defecto. Debes, explícitamente, llamar preventDefault. Por ejemplo, en un HTML plano, para prevenir el comportamiento por defecto de un enlace de abrir una nueva página, puedes escribir:
@@ -31,11 +26,12 @@ Otra diferencia es que en React no puedes retornar false para prevenir el compor
 ```
 
 En cambio en React, esto podría ser:
+
 ```js
 function ActionLink() {
   function handleClick(e) {
     e.preventDefault();
-    console.log('The link was clicked.');
+    console.log("The link was clicked.");
   }
 
   return (
@@ -54,7 +50,7 @@ Cuando defines un componente usando una clase de ES6, un patrón muy común es q
 class Toggle extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {isToggleOn: true};
+    this.state = { isToggleOn: true };
 
     // Este enlace es necesario para hacer que `this` funcione en el callback
     this.handleClick = this.handleClick.bind(this);
@@ -69,51 +65,44 @@ class Toggle extends React.Component {
   render() {
     return (
       <button onClick={this.handleClick}>
-        {this.state.isToggleOn ? 'ON' : 'OFF'}
+        {this.state.isToggleOn ? "ON" : "OFF"}
       </button>
     );
   }
 }
 ```
 
-Tienes que tener mucho cuidado en cuanto al significado de this en los callbacks de JSX. En JavaScript, los métodos de clase no están ligados por defecto. Si olvidas ligar this.handleClick y lo pasas a onClick, this será undefined cuando se llame la función.
+Tienes que tener mucho cuidado en cuanto al significado de `this` en los callbacks de `JSX`. En JavaScript, los métodos de clase no están ligados (binded) por defecto. Si olvidas ligar this.handleClick y lo pasas a onClick, this será `undefined` cuando se invoque la función.
 
-Esto no es un comportamiento especifico de React; esto hace parte de como operan las funciones JavaScript. Generalmente, si refieres un método sin usar () después de este, tal como onClick={this.handleClick}, deberías ligar ese método.
+Este no es un comportamiento especifico de React, sino parte de cómo operan las funciones JavaScript. Generalmente, si refieres un método sin usar `()` después de este, tal como onClick={this.handleClick}, deberías ligar ese método.
 
-Si te molesta llamar bind, existen dos maneras de evitarlo. Si usas la sintaxis experimental campos públicos de clases, puedes usar los campos de clases para ligar los callbacks correctamente:
+Si te molesta llamar `bind`, existen dos maneras de evitarlo. Si usas la sintaxis campos públicos de clases, puedes usar los campos de clases para ligar los callbacks correctamente:
 
 ```js
 class LoggingButton extends React.Component {
   // Esta sintaxis nos asegura que `this` está ligado dentro de handleClick
-  // Peligro: esto es una sintaxis *experimental*
   handleClick = () => {
-    console.log('this is:', this);
-  }
+    console.log("this is:", this);
+  };
 
   render() {
-    return (
-      <button onClick={this.handleClick}>
-        Click me
-      </button>
-    );
+    return <button onClick={this.handleClick}>Click me</button>;
   }
 }
 ```
 
-Si no estas usando la sintaxis de campos públicos de clases, puedes usar una función flecha en el callback:
+Si no estas usando la sintaxis de campos públicos de clases, puedes usar una función flecha (arrow function) en el callback:
+
 ```js
 class LoggingButton extends React.Component {
   handleClick() {
-    console.log('this is:', this);
+    console.log("this is:", this);
   }
 
   render() {
     // Esta sintaxis nos asegura que `this` esta ligado dentro de handleClick
-    return (
-      <button onClick={(e) => this.handleClick(e)}>
-        Click me
-      </button>
-    );
+    // Aunque no es recomendable puesto que el arrow function se declara a cada render
+    return <button onClick={e => this.handleClick(e)}>Click me</button>;
   }
 }
 ```
@@ -131,12 +120,13 @@ Dentro de un bucle es muy común querer pasar un parámetro extra a un manejador
 
 Las dos líneas anteriores son equivalentes, y utilizan funciones flecha y Function.prototype.bind respectivamente.
 
-En ambos casos, el argumento e que representa el evento de React va a ser pasado como un segundo argumento después del ID. Con una función flecha, tenemos que pasarlo explícitamente, pero con bind cualquier argumento adicional es pasado automáticamente
+En ambos casos, el argumento `e` (event) que representa el evento de React va a ser pasado como un segundo argumento después del `id`. Con una función flecha, tenemos que pasarlo explícitamente, pero con bind cualquier argumento adicional es pasado automáticamente
 
 ## Ejercicios:
 
 1. Crear un componente de clases que al pulsar un boton llame a `https://jsonplaceholder.typicode.com/todos/1` y pinte el JSON.
 2. Crear un componente que pinte el texto que estamos escribiendo en `input`
 3. Crear un componente que muestre el `value` seleccionado de una etiqueta `<select>`
+   [IR AL EJERCICIO](./../Ejercicios/Enunciados/5.Eventos.md)
 
 [<- Volver al índice](./../README.md)
