@@ -37,6 +37,6 @@ Ejercicios:
 3. Crear un componente `ShowDate.js` que llame a una función que devuelva la fecha actual en una etiqutea `span`.
 4. Crear un componente `ShowMessage.js` que dependiendo de si la variable `showMessage` es true o false muestre el mensaje `Ahora puedes leer esto` en una etiqueta `p`.
 5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`
-   [IR AL EJERCICIO](./../Ejercicios/2.Renderizando_Elementos.md)
+   [IR AL EJERCICIO](./../Ejercicios/Enunciados/2.Renderizando_Elementos.md)
 
 [<- Volver al índice](./../README.md)

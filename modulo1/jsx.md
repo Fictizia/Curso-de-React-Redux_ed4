@@ -17,7 +17,7 @@ Esta idea de meter el HTML dentro de JavaScript es muy criticada, pero se basa e
 Hay algunos atributos de las etiquetas HTML que cambian:
 
 - CSS `class` attribute: en React pasa a definirse como **className**
-- `EventHandlers` como onclick, por ejemplo: en React hay que escribirlos camel-cased. Sería algo así: **onClick**
+- `EventListeners` como onclick, por ejemplo: en React hay que escribirlos camelCased. Sería algo así: **onClick**
 - A los atributos de un elemento HTML se les puede pasar funciones, objetos, texto, expresiones...
 
 ## Renderizando variables en JSX
@@ -62,6 +62,6 @@ Puedes comprobarlo visitando este [link](https://babeljs.io/repl#?babili=false&b
 ## Ejercicios:
 
 1. Entrar en [BabelJS](https://babeljs.io/repl) y probar a un escribir un componente que tenga una clase llamada `title`. Revisar qué salida nos da BabelJS después del compilado.
-   [IR AL EJERCICIO](./../Ejercicios/1.JSX.md)
+   [IR AL EJERCICIO](./../Ejercicios/Enunciados/1.JSX.md)
 
 [<- Volver al índice](./../README.md)

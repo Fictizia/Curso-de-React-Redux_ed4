@@ -34,7 +34,7 @@ Se puede acceder a los hijos de un componente a través de las `props` usando `p
 
 ## Restricciones
 
-Las props son de solo lectura. Ya sea que declares un componente como una función o como una clase, este nunca debe modificar sus props. Considera esta función sum :
+Las props son de solo lectura. Ya sea que declares un componente como una función o como una clase, este nunca debe modificar sus props. Considera esta función sum:
 
 ```js
 function sum(a, b) {
@@ -56,7 +56,7 @@ React es bastante flexible pero tiene una sola regla estricta:
 
 **Todos los componentes de React deben actuar como funciones puras con respecto a sus props.**
 
-¿Entonces como cambio dinámicamente lo que muestra un componente?
+¿Entonces cómo cambio dinámicamente lo que muestra un componente?
 
 En la siguiente sección, introduciremos un nuevo concepto de “estado”. El estado le permite a los componentes de React cambiar su salida a lo largo del tiempo en respuesta a acciones del usuario, respuestas de red y cualquier otra cosa, sin violar esta regla.
 
@@ -73,7 +73,7 @@ En la siguiente sección, introduciremos un nuevo concepto de “estado”. El e
 <ul>
   <li>Observar el HTML</li>
   <li>Pensar en como puedo extraer cada trozo en componentes</li>
-  <li>Usarlos en React</li>
+  <li>Usarlos, o mejor dicho, reusarlos en React</li>
 </ul>
 
 <a href="https://reactjs.org/">React Docs</a>
@@ -92,5 +92,6 @@ Debemos crear los siguientes componentes y que se muestre en React como debería
 3. Seguir los siguientes pasos:
    1. Crear un fichero llamado `Child.js` en el exportar un componente que va a ser una etiqueta `button` que como prop va a recibir una llamada `onPress` que se la asignaremos a la funcion `onClick` del botón.
    2. Crear un componente llamado `Parent.js` que renderizará el componente `Child` y le pasará por `props` una función que se encargará de escribir en la consola el siguiente mensaje: `Hola a todos!`.
+      [IR AL EJERCICIO](./../Ejercicios/Enunciados/3.Props.md)
 
 [<- Volver al índice](./../README.md)

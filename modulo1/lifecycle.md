@@ -8,13 +8,12 @@ Cada componente tiene varios “métodos de ciclo de vida” que puedes sobrescr
 
 Si no inicializas el estado y no enlazas los métodos, no necesitas implementar un constructor para tu componente React.
 
-El constructor para un componente React es llamado antes de ser montado. Al implementar el constructor para una subclase React.Component, deberías llamar a super(props) antes que cualquier otra instrucción. De otra forma, this.props no estará definido en el constructor, lo que puede ocasionar a errores.
+El constructor para un componente React es llamado antes de ser montado. Al implementar el constructor para una subclase React.Component, deberías llamar a super(props) antes que cualquier otra instrucción. De otra forma, `this.props` no estará definido en el constructor, lo que puede ocasionar errores.
 
 Normalmente, los constructores de React sólo se utilizan para dos propósitos:
 
-Para inicializar un estado local asignando un objeto al this.state.
-
-Para enlazar manejadores de eventos a una instancia.
+- Para inicializar un estado local asignando un objeto al this.state.
+- Para enlazar manejadores de eventos a una instancia. (`bind` que ya hemos visto en secciones anteriores).
 
 No debes llamar setState() en el constructor(). En su lugar, si su componente necesita usar el estado local, asigna directamente el estado inicial al this.state directamente en el constructor:
 
@@ -62,12 +61,11 @@ componentWillUnmount() se invoca inmediatamente antes de desmontar y destruir un
 
 No debes llamar setState() en componentWillUnmount() porque el componente nunca será vuelto a renderizar. Una vez que una instancia de componente sea desmontada, nunca será montada de nuevo.
 
-
 ## Ejercicios:
-
 
 1. Crear un componente de clase que tenga un estado con una propiedad `users` y sea un `array` de nombres. El estado debe estar inicializado con dos nombres. Cuando el componente se haya montado añadir un usuario más y actualizar el estado. Cuando el componente se destruya debería de sacar un mensaje por consola diciendo `¡Componente destruido!`.
 
 2. Crear un componente de clase que tenga un estado con la propiedad `tasks`. Hacer una peticion a `https://jsonplaceholder.typicode.com/todos` y pintar el JSON que te devuelve.
+   [IR AL EJERCICIO](./../Ejercicios/Enunciados/1.JSX.md)
 
 [<- Volver al índice](./../README.md)
