@@ -21,15 +21,3 @@
 .tdl-add_list_button:active {
   border: 1px solid var(--backgroundBlue);
 }
-
-.tdl-main_title {
-  padding: 30px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 35px;
-  color: var(--headerColor);
-}
-
-.tdl-main_title-link {
-  text-decoration: none;
-}
