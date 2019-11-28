@@ -24,3 +24,7 @@ Este curso tiene como objetivo que aprendas todos los detalles de esta librería
    6. [Renderizado condicional](./modulo1/conditionalRender.md)
    7. [Ciclo de vida](./modulo1/lifecycle.md)
    8. [Pintando listas](./modulo1/renderList.md)
+   9. [Formularios](./modulo1/forms.md)
+   10. [Subiendo el estado](./modulo1/state2.md)
+   11. [Herencia vs composicion](./modulo1/composition.md)
+   12. [Pensando en React](./modulo1/thinkingReact.md)
