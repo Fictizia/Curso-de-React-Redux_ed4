@@ -1,0 +1,19 @@
+@fontface {
+  font-family: 'PT Mono', monospace;
+  src: url('https://fonts.googleapis.com/css?family=PT+Mono');
+}
+
+:root {
+/*colors*/
+  --backgroundBlue: #166B94;
+  --headerColor: tomato;
+/*fonts*/  
+  --Header: 'PT Mono', monospace;;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--Header);
+  background-color: var(--backgroundBlue);
+}
