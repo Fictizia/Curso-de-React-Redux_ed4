@@ -1,0 +1,11 @@
+.wm-block-order-summary {
+  font-size: 0.8rem;
+  border-bottom: 2px solid #ccc;
+  border-right: 0.5px solid #ccc;
+  border-left: 0.5px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  flex-basis: 200px;
+  padding: 0.5rem;
+  line-height: 1.5;
+}

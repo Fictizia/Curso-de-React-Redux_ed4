@@ -1,0 +1,50 @@
+.wm-order-summary-breackdown div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wm-order-summary-result {
+  font-weight: 900;
+  position: relative;
+}
+
+.wm-order-summary-total {
+  border-top: 1px solid #ccc;
+}
+
+.wm-order-summary-total span {
+  line-height: 2;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.wm-order-summary-tooltip {
+  position: absolute;
+  top: 110px;
+  border-radius: 0.5em;
+  width: 100px;
+  z-index: 9999;
+  padding: 1em;
+  font-size: 0.8em;
+  background: white;
+  border: 1px solid white;
+  line-height: 1.1;
+  box-shadow: 0.5px 0.5px 9px 0px #ccc;
+}
+
+.wm-order-summary-tooltip:before {
+  content: " ";
+  position: absolute;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.wm-order-summary-breackdown-title_clickable {
+  cursor: pointer;
+  text-decoration: underline;
+}
