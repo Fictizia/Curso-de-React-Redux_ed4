@@ -59,14 +59,6 @@ const List = ({
     setTasks(tareas)
   }
 
-  const removeThisTask = (arrIdx) => {
-    const newArr = tasks.splice(0);
-
-    if (arrIdx > -1) { newArr.splice(arrIdx, 1); }
-    calcPercentage(newArr);
-    setTasks(newArr);
-  }
-
   return (
     <div className="td-list_container">
       <input
@@ -94,10 +86,10 @@ const List = ({
       <div className="td-task-box">
         {tasks.map((task, idx, tasks) => (
           <Task
-            key={idx}
+            key={task.text}
             checked={task.status}
             onInpChange={() => onInputChange(task, idx,tasks)}
-            removeTask={() => removeThisTask({idx}.idx)}>
+          >
               {task.text}
           </Task>
         ))}
@@ -112,22 +104,3 @@ const List = ({
 };
 
 export default List;
-
-// El usuario hace click y llama al Envent Listener del DOM.
-// a.onClick(event);
-
-// La función anónima dentro del onClick de <a> ((event)) "recoge y permite utilizar" event, children y className.
-// Después, esta función invoca a la función que nosotros hemos definido en const (en este caso 'click').
-// Puede acceder a los datos (event, children, className) porque está dentro del return. Si definiéramos esa función,
-// además tiene this.props asociado por delante (this.props.click = function(event){*por definir en props*})
-
-// let anonymous = function(event){
-//  onClick(event, children, className);
-// }
-
-// Arriba, en const, definimos (o en este caso permitimos al desarrollador) que utilice los parámetros
-// invocados en (el callback) de la función anterior, en este caso click.
-//
-// ** Como en el caso del texto que alberga children ('This is a title'), nos interesa que click por defecto
-// y como medida de seguridad, devuelva una función vacía (así no peta la página). Esto es solo un default value
-// que puede ser modificado en la props del elemento donde se coloque.
