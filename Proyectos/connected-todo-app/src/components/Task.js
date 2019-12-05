@@ -27,7 +27,6 @@ return (
       {children}
     </label>
     <button
-      onClick={(event) => removeTask(event, children, className)}
       className="td-remove_task">
         x
     </button>
