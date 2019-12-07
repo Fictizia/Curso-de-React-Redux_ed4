@@ -22,13 +22,13 @@ Os sugiero que vayáis paso a paso, `bug a bug`, para conseguir levantar la App 
 
 4. `Go For It!` Al menos eso es lo que debía decir el Header.
 
-5. Por cierto, me estaba saltando un errorcillo en Chrome, pero parece que después de todo la App tira. No sé, chorradas de React.
+5. No te lo vas a creer, pero no se me ven listas. NINGUNA.
+
+6. Por cierto, me estaba saltando un errorcillo en Chrome, pero parece que después de todo la App tira. No sé, chorradas de React.
     - Recuerdo que había una forma de solucionarlo:
     - Lo que no sé es por qué React necesitaba que se arreglara. Vamos, que no entiendo el `Warning` del navegador.
 
-6. No te lo vas a creer, pero no se me ven listas. NINGUNA.
-
-7. Intento borrar las tareas. Le clicko y le clicko, pero "rien, nothing, nada".
+7. Intento borrar las tareas. Le clico y le clico, pero "rien, nothing, nada".
 
 ### Redux
 
@@ -91,6 +91,12 @@ Vaya marrón, ya sé lo que queremos, pero, ¿dónde pongo esto?
 7. Vale, quiero poder actualizar el Store con ese método, estoy seguro de que había una forma de usarlo en mi árbol de componentes.
 
 ## Actividades extra
+0. Instala `react-redux` y `redux`.
+    - Si te sirven de ayuda, los scripts son transparentes:
+        - `npm i react-redux`
+        - `npm i redux`
+
+
 1. Daría lo que fuera por que el `favicon.ico` representara en algo a la App.
 2. El BOSS ha pedido que implementemos una nueva funcionalidad que nos permita, dentro del mismo List, carmbiar el orden de las tareas incorporando unas flechas ↑↓ (arriba y abajo) en `Task.js`.
 3. Por cierto, mañana es el "due date" (Ari, eres un REPELENTE) para implementar ese componente que nos pidieron. ¿No lo recuerdas?
