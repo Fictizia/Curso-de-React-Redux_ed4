@@ -92,6 +92,8 @@ Debemos crear los siguientes componentes y que se muestre en React como debería
 3. Seguir los siguientes pasos:
    1. Crear un fichero llamado `Child.js` en el exportar un componente que va a ser una etiqueta `button` que como prop va a recibir una llamada `onPress` que se la asignaremos a la funcion `onClick` del botón.
    2. Crear un componente llamado `Parent.js` que renderizará el componente `Child` y le pasará por `props` una función que se encargará de escribir en la consola el siguiente mensaje: `Hola a todos!`.
-      [IR AL EJERCICIO](./../Ejercicios/Enunciados/3.Props.md)
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/3.Props.md)
+
+[<- Volver al índice](../../README.md)

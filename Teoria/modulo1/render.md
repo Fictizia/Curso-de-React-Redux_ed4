@@ -14,21 +14,21 @@ $ yarn start
 
 Esto nos creará una estructura como esta:
 
-![estructura](./../images/boilerplate.png)
+![estructura](../../Assets/images/boilerplate.png)
 
 Nos centraremos en el fichero `App.js`:
 
-![app](./../images/app.png)
+![app](../../Assets/images/app.png)
 
 App es el componente principal de la aplicación y se usa en el `index.js`:
 
-![index](./../images/index.png)
+![index](../../Assets/images/index.png)
 
 que a su vez React hace que se renderize en la etiqueta que tiene como id: root.
 
 Esta etiqueta esta dentro de la carpeta `public/index.html`:
 
-![public](./../images/public.png)
+![public](../../Assets/images/public.png)
 
 Ejercicios:
 
@@ -36,7 +36,9 @@ Ejercicios:
 2. Crear un componente en un fichero llamado `ShowName.js` que renderize la propiedad `name` de un objeto llamado `user` en una etiqueta `p`.
 3. Crear un componente `ShowDate.js` que llame a una función que devuelva la fecha actual en una etiqutea `span`.
 4. Crear un componente `ShowMessage.js` que dependiendo de si la variable `showMessage` es true o false muestre el mensaje `Ahora puedes leer esto` en una etiqueta `p`.
-5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`
-   [IR AL EJERCICIO](./../Ejercicios/Enunciados/2.Renderizando_Elementos.md)
+5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`.
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/2.Renderizando_Elementos.md)
+
+[<- Volver al índice](../../README.md)

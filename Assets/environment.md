@@ -13,4 +13,4 @@ Para poder trabajar en clase, necesitaremos:
 - [Cuenta de Github]() por si no la tienes ya.
 - Ganas de dar un salto importante en tu carrera como programador/a.
 
-[<- Volver al índice](./README.md)
+[<- Volver al índice](../README.md)

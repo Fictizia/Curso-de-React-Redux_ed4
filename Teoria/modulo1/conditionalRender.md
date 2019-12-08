@@ -75,6 +75,8 @@ const Greeting = props => {
 ## Ejercicios:
 
 1. Quiero tener una pagina que solo se muestre cuando estoy logueado. Cuando estoy logueado se mostrará un texto que dira `"Esta pagina solo puedo verla por que estoy logueado"` y un botón de cerrar sesión. Cuando **NO** esté logueado mostrará un boton de Login y un mensaje de `"Inicia sesión para ver contenido privado"`.
-   [IR AL EJERCICIO](./../Ejercicios/Enunciados/6.Renderizado_Condicional.md)
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/6.Renderizado_Condicional.md)
+
+[<- Volver al índice](../../README.md)

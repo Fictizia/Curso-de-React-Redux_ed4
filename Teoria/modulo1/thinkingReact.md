@@ -2,12 +2,12 @@
 
 Durante lo que llevamos de curso hemos hecho varios ejercicios en los que intentabamos hacer componentes que se pudieran reutilizar.
 
-Una de las grandes ventaja de React es cómo te hace pensar acerca de la aplicación mientras la construyes. Hay unos pasos que deberíamos seguir para conseguir nuestro objetivo:
+Una de las grandes ventajas de React es cómo te hace pensar acerca de la aplicación mientras la construyes. Hay unos pasos que deberíamos seguir para conseguir nuestro objetivo:
 
 1.  Divide la interfaz de usuario en una jerarquía de componentes
 2. Crea una versión estática en React
 3. Identificar la versión mínima (pero completa) del estado de tu interfaz de usuario
-4. Identificar donde debe vivir tu estado
+4. Identificar dónde debe vivir tu estado
 5. Agregar flujo de datos inverso
 
 ## Ejercicios
@@ -23,4 +23,4 @@ Una de las grandes ventaja de React es cómo te hace pensar acerca de la aplicac
     * **BONUS:** Cuando cierre el navegador y vuelva a entrar debería de mostrar el carrito como estaba la última vez.
 
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

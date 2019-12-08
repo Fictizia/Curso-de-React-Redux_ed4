@@ -2,7 +2,7 @@
 
 Cada componente tiene varios “métodos de ciclo de vida” que puedes sobrescribir para ejecutar código en momentos particulares del proceso. Puedes usar este diagrama de ciclo de vida como una hoja de referencia. En la lista de abajo, los métodos de ciclo de vida comúnmente usados están marcados en negrita. El resto de ellos existen para casos de uso relativamente raros.
 
-![ciclos de vida](./../images/lifecycle.png)
+![ciclos de vida](../../Assets/images/lifecycle.png)
 
 ## **constructor()**
 
@@ -66,6 +66,8 @@ No debes llamar setState() en componentWillUnmount() porque el componente nunca 
 1. Crear un componente de clase que tenga un estado con una propiedad `users` y sea un `array` de nombres. El estado debe estar inicializado con dos nombres. Cuando el componente se haya montado añadir un usuario más y actualizar el estado. Cuando el componente se destruya debería de sacar un mensaje por consola diciendo `¡Componente destruido!`.
 
 2. Crear un componente de clase que tenga un estado con la propiedad `tasks`. Hacer una peticion a `https://jsonplaceholder.typicode.com/todos` y pintar el JSON que te devuelve.
-   [IR AL EJERCICIO](./../Ejercicios/Enunciados/7.Ciclo_De_Vida.md)
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/1.JSX.md)
+
+[<- Volver al índice](../../README.md)

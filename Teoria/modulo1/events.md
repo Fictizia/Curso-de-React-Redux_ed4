@@ -127,6 +127,8 @@ En ambos casos, el argumento `e` (event) que representa el evento de React va a 
 1. Crear un componente de clases que al pulsar un boton llame a `https://jsonplaceholder.typicode.com/todos/1` y pinte el JSON.
 2. Crear un componente que pinte el texto que estamos escribiendo en `input`
 3. Crear un componente que muestre el `value` seleccionado de una etiqueta `<select>`
-   [IR AL EJERCICIO](./../Ejercicios/Enunciados/5.Eventos.md)
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/5.Eventos.md)
+
+[<- Volver al índice](../../README.md)

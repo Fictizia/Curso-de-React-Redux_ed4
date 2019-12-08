@@ -206,6 +206,8 @@ function FormattedDate(props) {
    1. Los botones sean componentes a parte.
    2. El texto del contador sea un componente a parte
    3. El componente Counter sea quien tenga el estado y las funciones que lo actualizan y se lo pase a sus hijos.
-      [IR AL EJERCICIO](./../Ejercicios/Enunciados/4.State.md)
 
-[<- Volver al índice](./../README.md)
+---
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/4.State.md)
+
+[<- Volver al índice](../../README.md)

@@ -6,7 +6,7 @@ En esta sección consideraremos algunos problemas en los que los desarrolladores
 
 ## Contención
 
-Algunos componentes no conocen sus hijos de antemano. Esto es especialmente común para componentes como Sidebar o Dialog que representan “cajas” genéricas.
+Algunos componentes no conocen sus hijos de antemano. Esto es especialmente común para componentes como un Sidebar o un Dialog, que representan “cajas” genéricas.
 
 Recomendamos que estos componentes usen la prop especial children para pasar elementos hijos directamente en su resultado:
 
@@ -50,7 +50,4 @@ function WelcomeDialog() {
 }
 ```
 
-
-
-
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)
