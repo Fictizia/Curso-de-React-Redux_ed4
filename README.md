@@ -12,15 +12,32 @@ Este curso tiene como objetivo que aprendas todos los detalles de esta librería
 
 # Indice
 
-1. [Introducción](./introduccion.md)
+1. [Introducción](./Assets/introduccion.md)
 
-2. [Nuestro entorno de desarrollo](./environment.md)
+2. [Nuestro entorno de desarrollo](./Assets/environment.md)
+
 3. Conceptos básicos de React:
-   1. [Introducción a JSX](./modulo1/jsx.md)
-   2. [Renderizando componentes](./modulo1/render.md)
-   3. [Componentes y propiedades](./modulo1/props.md)
-   4. [El estado](./modulo1/state.md)
-   5. [Gestionando eventos en React](./modulo1/events.md)
-   6. [Renderizado condicional](./modulo1/conditionalRender.md)
-   7. [Ciclo de vida](./modulo1/lifecycle.md)
-   8. [Pintando listas](./modulo1/renderList.md)
+  1. [Introducción a JSX](./Teoria/modulo1/jsx.md)
+  2. [Renderizando componentes](./Teoria/modulo1/render.md)
+  3. [Componentes y propiedades](./Teoria/modulo1/props.md)
+  4. [El estado](./Teoria/modulo1/state.md)
+  5. [Gestionando eventos en React](./Teoria/modulo1/events.md)
+  6. [Renderizado condicional](./Teoria/modulo1/conditionalRender.md)
+  7. [Ciclo de vida](./Teoria/modulo1/lifecycle.md)
+  8. [Pintando listas](./Teoria/modulo1/renderList.md)
+  9. [Subiendo el estado](./Teoria/modulo1/state2.md)
+  10. [Herencia vs composicion](./Teoria/modulo1/composition.md)
+  11. [Pensando en React](./Teoria/modulo1/thinkingReact.md)
+
+4. Conceptos avanzados de React:
+  1. [División de código](./Teoria/modulo2/code-splitting.md)
+  2. [React Context](./Teoria/modulo2/context.md)
+  3. [Gestión de errores](./Teoria/modulo2/errorboundaries.md)
+  4. [High order components (HOCs)](./Teoria/modulo2/hoc.md)
+  5. [Creando referencias a elementos DOM](./Teoria/modulo2/refs.md)
+  6. [Comprobación dinámica de tipos (PropTypes)](./Teoria/modulo2/proptypes.md)
+  7. [Hooks](./Teoria/modulo2/hooks.md)
+  8. [React Lazy y React Suspense](./Teoria/modulo2/lazySuspense.md)
+
+Extras. Más allá de React:
+  1. [Accesibilidad](./Teoria/extras)

@@ -94,6 +94,6 @@ Debemos crear los siguientes componentes y que se muestre en React como debería
    2. Crear un componente llamado `Parent.js` que renderizará el componente `Child` y le pasará por `props` una función que se encargará de escribir en la consola el siguiente mensaje: `Hola a todos!`.
 
 ---
-[IR AL EJERCICIO](./../Ejercicios/Enunciados/3.Props.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/3.Props.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

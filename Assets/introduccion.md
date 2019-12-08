@@ -10,6 +10,6 @@ Habrá ciertas partes de teoria explicando el temario y normalmente haremos ejer
 
 React es la base de un conjunto de herramientas que utilizan la mayor parte de las empresas más importantes del sector, no solo tecnológico, para construir sus proyectos web. La sencillez para desarrollar componentes y la gran comunidad que lo soporta, hace lo ha convertido en la mejor opción si quieres desarrollar una interfaz de manera eficiente y rapida. Por otro lado, no solo nuestra opinión, sino también los datos respaldan tales afirmaciones:
 
-![stackoverflowsurvey](./images/stackoverflow_survey.png)
+![stackoverflowsurvey](./Assets/images/stackoverflow_survey.png)
 
-[<- Volver al índice](./README.md)
+[<- Volver al índice](../README.md)

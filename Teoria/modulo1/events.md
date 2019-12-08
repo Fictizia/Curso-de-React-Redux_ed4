@@ -129,6 +129,6 @@ En ambos casos, el argumento `e` (event) que representa el evento de React va a 
 3. Crear un componente que muestre el `value` seleccionado de una etiqueta `<select>`
 
 ---
-[IR AL EJERCICIO](./../Ejercicios/Enunciados/5.Eventos.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/5.Eventos.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

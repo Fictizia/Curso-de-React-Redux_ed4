@@ -63,6 +63,6 @@ Puedes comprobarlo visitando este [link](https://babeljs.io/repl#?babili=false&b
 
 1. Entrar en [BabelJS](https://babeljs.io/repl) y probar a un escribir un componente que tenga una clase llamada `title`. Revisar qué salida nos da BabelJS después del compilado.
 ---
-[IR AL EJERCICIO](./../Ejercicios/Enunciados/1.JSX.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/1.JSX.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

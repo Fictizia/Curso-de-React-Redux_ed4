@@ -76,6 +76,6 @@ function NumberList(props) {
 
 ---
 
-[IR AL EJERCICIO](./../Ejercicios/Enunciados/8.Pintando_Listas.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/8.Pintando_Listas.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

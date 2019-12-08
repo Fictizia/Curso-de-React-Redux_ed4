@@ -208,6 +208,6 @@ function FormattedDate(props) {
    3. El componente Counter sea quien tenga el estado y las funciones que lo actualizan y se lo pase a sus hijos.
 
 ---
-[IR AL EJERCICIO](./../Ejercicios/Enunciados/4.State.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/4.State.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)

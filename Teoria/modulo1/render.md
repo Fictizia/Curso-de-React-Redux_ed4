@@ -14,21 +14,21 @@ $ yarn start
 
 Esto nos creará una estructura como esta:
 
-![estructura](./../images/boilerplate.png)
+![estructura](../../Assets/images/boilerplate.png)
 
 Nos centraremos en el fichero `App.js`:
 
-![app](./../images/app.png)
+![app](../../Assets/images/app.png)
 
 App es el componente principal de la aplicación y se usa en el `index.js`:
 
-![index](./../images/index.png)
+![index](../../Assets/images/index.png)
 
 que a su vez React hace que se renderize en la etiqueta que tiene como id: root.
 
 Esta etiqueta esta dentro de la carpeta `public/index.html`:
 
-![public](./../images/public.png)
+![public](../../Assets/images/public.png)
 
 Ejercicios:
 
@@ -39,6 +39,6 @@ Ejercicios:
 5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`.
 
 ---
-   [IR AL EJERCICIO](./../Ejercicios/Enunciados/2.Renderizando_Elementos.md)
+[IR AL EJERCICIO](../../Ejercicios/Enunciados/2.Renderizando_Elementos.md)
 
-[<- Volver al índice](./../README.md)
+[<- Volver al índice](../../README.md)
