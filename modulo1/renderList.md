@@ -74,5 +74,8 @@ function NumberList(props) {
    - AddTaskButton
    - RemoveTaskButton
 
-[<- Volver al índice](./../README.md)
+---
+
 [IR AL EJERCICIO](./../Ejercicios/Enunciados/8.Pintando_Listas.md)
+
+[<- Volver al índice](./../README.md)
