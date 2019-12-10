@@ -1,0 +1,6 @@
+.wm-block-item-details {
+  cursor: pointer;
+  line-height: 2;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}

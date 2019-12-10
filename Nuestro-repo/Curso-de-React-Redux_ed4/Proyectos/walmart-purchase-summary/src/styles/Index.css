@@ -1,0 +1,29 @@
+:root {
+  /* COLORS */
+  --wm-header-color: #051f41;
+  --wm-header-font-color: #e2f3f7;
+
+  /* FONT-FAMILIES */
+  --wm-header-font-family: Arial, sans-serif;
+  --wm-body-font-family: Arial, sans-serif;
+
+  /* HTML FONT-SIZE */
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200.01px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+html {
+  font-family: var(--wm-header-font-family);
+  box-sizing: content-box;
+}
