@@ -1,9 +1,0 @@
-.wm-body {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 3rem;
-}
-
-.wm-body div {
-  margin: 0.6em 0;
-}
